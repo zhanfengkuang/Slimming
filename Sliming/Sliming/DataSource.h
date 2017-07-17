@@ -9,6 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
+/*
+ 在该类中我们只做与dataSource相关的事件，这样会是的代码变得清晰
+ */
+
 typedef void (^TableViewCellConfigureBlock)(id cell, id item);
 
 @interface DataSource : NSObject <UITableViewDataSource>

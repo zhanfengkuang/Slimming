@@ -11,12 +11,11 @@
 
 @class Model;
 @interface DataSource ()
-
 @property (nonatomic, strong) NSArray *items;
 @property (nonatomic, copy) NSString *cellIdentifier;
 @property (nonatomic, copy) TableViewCellConfigureBlock configureBlock;
-
 @end
+
 
 @implementation DataSource
 
