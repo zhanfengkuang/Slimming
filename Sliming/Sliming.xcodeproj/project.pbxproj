@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C630AF491F1C524200239DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF481F1C524200239DEB /* main.m */; };
+		C630AF4C1F1C524200239DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF4B1F1C524200239DEB /* AppDelegate.m */; };
+		C630AF4F1F1C524200239DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF4E1F1C524200239DEB /* ViewController.m */; };
+		C630AF521F1C524200239DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C630AF501F1C524200239DEB /* Main.storyboard */; };
+		C630AF541F1C524200239DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C630AF531F1C524200239DEB /* Assets.xcassets */; };
+		C630AF571F1C524200239DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C630AF551F1C524200239DEB /* LaunchScreen.storyboard */; };
+		C630AF621F1C524200239DEB /* SlimingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF611F1C524200239DEB /* SlimingTests.m */; };
+		C630AF6D1F1C524300239DEB /* SlimingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF6C1F1C524300239DEB /* SlimingUITests.m */; };
+		C630AF7C1F1C52BE00239DEB /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF7B1F1C52BE00239DEB /* DataSource.m */; };
+		C630AF7F1F1C55CA00239DEB /* MapleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF7E1F1C55CA00239DEB /* MapleCell.m */; };
+		C630AF821F1C582300239DEB /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF811F1C582300239DEB /* Model.m */; };
+		C630AF841F1C603800239DEB /* maple.png in Resources */ = {isa = PBXBuildFile; fileRef = C630AF831F1C603800239DEB /* maple.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C630AF5E1F1C524200239DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C630AF3C1F1C524200239DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C630AF431F1C524200239DEB;
+			remoteInfo = Sliming;
+		};
+		C630AF691F1C524300239DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C630AF3C1F1C524200239DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C630AF431F1C524200239DEB;
+			remoteInfo = Sliming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C630AF441F1C524200239DEB /* Sliming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sliming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C630AF481F1C524200239DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C630AF4A1F1C524200239DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C630AF4B1F1C524200239DEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C630AF4D1F1C524200239DEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C630AF4E1F1C524200239DEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C630AF511F1C524200239DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C630AF531F1C524200239DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C630AF561F1C524200239DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C630AF581F1C524200239DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C630AF5D1F1C524200239DEB /* SlimingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlimingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C630AF611F1C524200239DEB /* SlimingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlimingTests.m; sourceTree = "<group>"; };
+		C630AF631F1C524200239DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C630AF681F1C524300239DEB /* SlimingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlimingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C630AF6C1F1C524300239DEB /* SlimingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlimingUITests.m; sourceTree = "<group>"; };
+		C630AF6E1F1C524300239DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C630AF7A1F1C52BE00239DEB /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		C630AF7B1F1C52BE00239DEB /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		C630AF7D1F1C55CA00239DEB /* MapleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapleCell.h; sourceTree = "<group>"; };
+		C630AF7E1F1C55CA00239DEB /* MapleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapleCell.m; sourceTree = "<group>"; };
+		C630AF801F1C582300239DEB /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C630AF811F1C582300239DEB /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C630AF831F1C603800239DEB /* maple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maple.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C630AF411F1C524200239DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C630AF5A1F1C524200239DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C630AF651F1C524300239DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C630AF3B1F1C524200239DEB = {
+			isa = PBXGroup;
+			children = (
+				C630AF461F1C524200239DEB /* Sliming */,
+				C630AF601F1C524200239DEB /* SlimingTests */,
+				C630AF6B1F1C524300239DEB /* SlimingUITests */,
+				C630AF451F1C524200239DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C630AF451F1C524200239DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C630AF441F1C524200239DEB /* Sliming.app */,
+				C630AF5D1F1C524200239DEB /* SlimingTests.xctest */,
+				C630AF681F1C524300239DEB /* SlimingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C630AF461F1C524200239DEB /* Sliming */ = {
+			isa = PBXGroup;
+			children = (
+				C630AF4A1F1C524200239DEB /* AppDelegate.h */,
+				C630AF4B1F1C524200239DEB /* AppDelegate.m */,
+				C630AF4D1F1C524200239DEB /* ViewController.h */,
+				C630AF4E1F1C524200239DEB /* ViewController.m */,
+				C630AF7A1F1C52BE00239DEB /* DataSource.h */,
+				C630AF7B1F1C52BE00239DEB /* DataSource.m */,
+				C630AF7D1F1C55CA00239DEB /* MapleCell.h */,
+				C630AF7E1F1C55CA00239DEB /* MapleCell.m */,
+				C630AF801F1C582300239DEB /* Model.h */,
+				C630AF811F1C582300239DEB /* Model.m */,
+				C630AF831F1C603800239DEB /* maple.png */,
+				C630AF501F1C524200239DEB /* Main.storyboard */,
+				C630AF531F1C524200239DEB /* Assets.xcassets */,
+				C630AF551F1C524200239DEB /* LaunchScreen.storyboard */,
+				C630AF581F1C524200239DEB /* Info.plist */,
+				C630AF471F1C524200239DEB /* Supporting Files */,
+			);
+			path = Sliming;
+			sourceTree = "<group>";
+		};
+		C630AF471F1C524200239DEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C630AF481F1C524200239DEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C630AF601F1C524200239DEB /* SlimingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C630AF611F1C524200239DEB /* SlimingTests.m */,
+				C630AF631F1C524200239DEB /* Info.plist */,
+			);
+			path = SlimingTests;
+			sourceTree = "<group>";
+		};
+		C630AF6B1F1C524300239DEB /* SlimingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C630AF6C1F1C524300239DEB /* SlimingUITests.m */,
+				C630AF6E1F1C524300239DEB /* Info.plist */,
+			);
+			path = SlimingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C630AF431F1C524200239DEB /* Sliming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C630AF711F1C524300239DEB /* Build configuration list for PBXNativeTarget "Sliming" */;
+			buildPhases = (
+				C630AF401F1C524200239DEB /* Sources */,
+				C630AF411F1C524200239DEB /* Frameworks */,
+				C630AF421F1C524200239DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sliming;
+			productName = Sliming;
+			productReference = C630AF441F1C524200239DEB /* Sliming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C630AF5C1F1C524200239DEB /* SlimingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C630AF741F1C524300239DEB /* Build configuration list for PBXNativeTarget "SlimingTests" */;
+			buildPhases = (
+				C630AF591F1C524200239DEB /* Sources */,
+				C630AF5A1F1C524200239DEB /* Frameworks */,
+				C630AF5B1F1C524200239DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C630AF5F1F1C524200239DEB /* PBXTargetDependency */,
+			);
+			name = SlimingTests;
+			productName = SlimingTests;
+			productReference = C630AF5D1F1C524200239DEB /* SlimingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C630AF671F1C524300239DEB /* SlimingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C630AF771F1C524300239DEB /* Build configuration list for PBXNativeTarget "SlimingUITests" */;
+			buildPhases = (
+				C630AF641F1C524300239DEB /* Sources */,
+				C630AF651F1C524300239DEB /* Frameworks */,
+				C630AF661F1C524300239DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C630AF6A1F1C524300239DEB /* PBXTargetDependency */,
+			);
+			name = SlimingUITests;
+			productName = SlimingUITests;
+			productReference = C630AF681F1C524300239DEB /* SlimingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C630AF3C1F1C524200239DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Maple;
+				TargetAttributes = {
+					C630AF431F1C524200239DEB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8YPZ4VJXJG;
+						ProvisioningStyle = Automatic;
+					};
+					C630AF5C1F1C524200239DEB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8YPZ4VJXJG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C630AF431F1C524200239DEB;
+					};
+					C630AF671F1C524300239DEB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8YPZ4VJXJG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C630AF431F1C524200239DEB;
+					};
+				};
+			};
+			buildConfigurationList = C630AF3F1F1C524200239DEB /* Build configuration list for PBXProject "Sliming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C630AF3B1F1C524200239DEB;
+			productRefGroup = C630AF451F1C524200239DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C630AF431F1C524200239DEB /* Sliming */,
+				C630AF5C1F1C524200239DEB /* SlimingTests */,
+				C630AF671F1C524300239DEB /* SlimingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C630AF421F1C524200239DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C630AF841F1C603800239DEB /* maple.png in Resources */,
+				C630AF571F1C524200239DEB /* LaunchScreen.storyboard in Resources */,
+				C630AF541F1C524200239DEB /* Assets.xcassets in Resources */,
+				C630AF521F1C524200239DEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C630AF5B1F1C524200239DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C630AF661F1C524300239DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C630AF401F1C524200239DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C630AF4F1F1C524200239DEB /* ViewController.m in Sources */,
+				C630AF4C1F1C524200239DEB /* AppDelegate.m in Sources */,
+				C630AF7F1F1C55CA00239DEB /* MapleCell.m in Sources */,
+				C630AF821F1C582300239DEB /* Model.m in Sources */,
+				C630AF7C1F1C52BE00239DEB /* DataSource.m in Sources */,
+				C630AF491F1C524200239DEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C630AF591F1C524200239DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C630AF621F1C524200239DEB /* SlimingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C630AF641F1C524300239DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C630AF6D1F1C524300239DEB /* SlimingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C630AF5F1F1C524200239DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C630AF431F1C524200239DEB /* Sliming */;
+			targetProxy = C630AF5E1F1C524200239DEB /* PBXContainerItemProxy */;
+		};
+		C630AF6A1F1C524300239DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C630AF431F1C524200239DEB /* Sliming */;
+			targetProxy = C630AF691F1C524300239DEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C630AF501F1C524200239DEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C630AF511F1C524200239DEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C630AF551F1C524200239DEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C630AF561F1C524200239DEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C630AF6F1F1C524300239DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C630AF701F1C524300239DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C630AF721F1C524300239DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = Sliming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.Sliming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C630AF731F1C524300239DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = Sliming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.Sliming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C630AF751F1C524300239DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlimingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlimingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sliming.app/Sliming";
+			};
+			name = Debug;
+		};
+		C630AF761F1C524300239DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlimingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlimingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sliming.app/Sliming";
+			};
+			name = Release;
+		};
+		C630AF781F1C524300239DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlimingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlimingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sliming;
+			};
+			name = Debug;
+		};
+		C630AF791F1C524300239DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlimingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlimingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sliming;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C630AF3F1F1C524200239DEB /* Build configuration list for PBXProject "Sliming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C630AF6F1F1C524300239DEB /* Debug */,
+				C630AF701F1C524300239DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C630AF711F1C524300239DEB /* Build configuration list for PBXNativeTarget "Sliming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C630AF721F1C524300239DEB /* Debug */,
+				C630AF731F1C524300239DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C630AF741F1C524300239DEB /* Build configuration list for PBXNativeTarget "SlimingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C630AF751F1C524300239DEB /* Debug */,
+				C630AF761F1C524300239DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C630AF771F1C524300239DEB /* Build configuration list for PBXNativeTarget "SlimingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C630AF781F1C524300239DEB /* Debug */,
+				C630AF791F1C524300239DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C630AF3C1F1C524200239DEB /* Project object */;
+}
