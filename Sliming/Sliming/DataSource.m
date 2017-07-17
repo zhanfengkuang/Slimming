@@ -7,7 +7,9 @@
 //
 
 #import "DataSource.h"
+#import "MapleCell.h"
 
+@class Model;
 @interface DataSource ()
 
 @property (nonatomic, strong) NSArray *items;
@@ -39,13 +41,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:_cellIdentifier forIndexPath:indexPath];
-    if (!cell) {
-        
-    }
-    
     id item = _items[indexPath.row];
+    //其实把配置数据放在这里应该viewController的代码量会更少吧
+    [(MapleCell *)cell configureForData:(Model *)item];
     if (_configureBlock) {
-        _configureBlock(cell, item);
+//        _configureBlock(cell, item);
     }
     return cell;
 }

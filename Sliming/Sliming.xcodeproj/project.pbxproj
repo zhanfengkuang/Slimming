@@ -19,6 +19,8 @@
 		C630AF7F1F1C55CA00239DEB /* MapleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF7E1F1C55CA00239DEB /* MapleCell.m */; };
 		C630AF821F1C582300239DEB /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF811F1C582300239DEB /* Model.m */; };
 		C630AF841F1C603800239DEB /* maple.png in Resources */ = {isa = PBXBuildFile; fileRef = C630AF831F1C603800239DEB /* maple.png */; };
+		C630AF891F1C6D0700239DEB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF881F1C6D0700239DEB /* DetailViewController.m */; };
+		C630AF8C1F1C6E8B00239DEB /* MapleDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C630AF8B1F1C6E8B00239DEB /* MapleDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +59,15 @@
 		C630AF6E1F1C524300239DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C630AF7A1F1C52BE00239DEB /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		C630AF7B1F1C52BE00239DEB /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
-		C630AF7D1F1C55CA00239DEB /* MapleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapleCell.h; sourceTree = "<group>"; };
-		C630AF7E1F1C55CA00239DEB /* MapleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapleCell.m; sourceTree = "<group>"; };
-		C630AF801F1C582300239DEB /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
-		C630AF811F1C582300239DEB /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
-		C630AF831F1C603800239DEB /* maple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maple.png; sourceTree = "<group>"; };
+		C630AF7D1F1C55CA00239DEB /* MapleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapleCell.h; path = ../MapleCell.h; sourceTree = "<group>"; };
+		C630AF7E1F1C55CA00239DEB /* MapleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapleCell.m; path = ../MapleCell.m; sourceTree = "<group>"; };
+		C630AF801F1C582300239DEB /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = Sliming/Model.h; sourceTree = SOURCE_ROOT; };
+		C630AF811F1C582300239DEB /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = Sliming/Model.m; sourceTree = SOURCE_ROOT; };
+		C630AF831F1C603800239DEB /* maple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maple.png; path = ../maple.png; sourceTree = "<group>"; };
+		C630AF871F1C6D0700239DEB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C630AF881F1C6D0700239DEB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C630AF8A1F1C6E8B00239DEB /* MapleDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapleDelegate.h; sourceTree = "<group>"; };
+		C630AF8B1F1C6E8B00239DEB /* MapleDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapleDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +122,14 @@
 				C630AF4B1F1C524200239DEB /* AppDelegate.m */,
 				C630AF4D1F1C524200239DEB /* ViewController.h */,
 				C630AF4E1F1C524200239DEB /* ViewController.m */,
+				C630AF871F1C6D0700239DEB /* DetailViewController.h */,
+				C630AF881F1C6D0700239DEB /* DetailViewController.m */,
 				C630AF7A1F1C52BE00239DEB /* DataSource.h */,
 				C630AF7B1F1C52BE00239DEB /* DataSource.m */,
-				C630AF7D1F1C55CA00239DEB /* MapleCell.h */,
-				C630AF7E1F1C55CA00239DEB /* MapleCell.m */,
-				C630AF801F1C582300239DEB /* Model.h */,
-				C630AF811F1C582300239DEB /* Model.m */,
-				C630AF831F1C603800239DEB /* maple.png */,
+				C630AF8A1F1C6E8B00239DEB /* MapleDelegate.h */,
+				C630AF8B1F1C6E8B00239DEB /* MapleDelegate.m */,
+				C630AF861F1C693C00239DEB /* Model */,
+				C630AF851F1C692E00239DEB /* View */,
 				C630AF501F1C524200239DEB /* Main.storyboard */,
 				C630AF531F1C524200239DEB /* Assets.xcassets */,
 				C630AF551F1C524200239DEB /* LaunchScreen.storyboard */,
@@ -156,6 +163,25 @@
 				C630AF6E1F1C524300239DEB /* Info.plist */,
 			);
 			path = SlimingUITests;
+			sourceTree = "<group>";
+		};
+		C630AF851F1C692E00239DEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C630AF7D1F1C55CA00239DEB /* MapleCell.h */,
+				C630AF7E1F1C55CA00239DEB /* MapleCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C630AF861F1C693C00239DEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C630AF801F1C582300239DEB /* Model.h */,
+				C630AF811F1C582300239DEB /* Model.m */,
+				C630AF831F1C603800239DEB /* maple.png */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +325,10 @@
 				C630AF4C1F1C524200239DEB /* AppDelegate.m in Sources */,
 				C630AF7F1F1C55CA00239DEB /* MapleCell.m in Sources */,
 				C630AF821F1C582300239DEB /* Model.m in Sources */,
+				C630AF8C1F1C6E8B00239DEB /* MapleDelegate.m in Sources */,
 				C630AF7C1F1C52BE00239DEB /* DataSource.m in Sources */,
 				C630AF491F1C524200239DEB /* main.m in Sources */,
+				C630AF891F1C6D0700239DEB /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +566,7 @@
 				C630AF731F1C524300239DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C630AF741F1C524300239DEB /* Build configuration list for PBXNativeTarget "SlimingTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +575,7 @@
 				C630AF761F1C524300239DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C630AF771F1C524300239DEB /* Build configuration list for PBXNativeTarget "SlimingUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +584,7 @@
 				C630AF791F1C524300239DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
